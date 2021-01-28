@@ -1,0 +1,5 @@
+name: 'Test build image'
+on: [push]
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
